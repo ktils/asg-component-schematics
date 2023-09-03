@@ -4,7 +4,7 @@
   "title": "Custom library for extending Angular Schematics",
   "type": "object",
   "properties": {
-    "defaultCollection": {
+    "schematicCollections": {
       "type": "boolean",
       "default": true,
       "description": "Use subscription-component-schematics as the default collection",

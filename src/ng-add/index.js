@@ -23,7 +23,7 @@ function updateWorkspaceCli(host, value) {
 }
 function setAsDefaultSchematics() {
     const cli = {
-        defaultCollection: 'subscription-component-schematics',
+        schematicCollections: 'subscription-component-schematics',
     };
     return (host) => {
         updateWorkspaceCli(host, cli);
@@ -33,7 +33,7 @@ function setAsDefaultSchematics() {
 function ngAdd(options) {
     return (host, context) => {
         return schematics_1.chain([
-            options && options.defaultCollection ? setAsDefaultSchematics() : schematics_1.noop(),
+            options && options.schematicCollections ? setAsDefaultSchematics() : schematics_1.noop(),
         ])(host, context);
     };
 }
