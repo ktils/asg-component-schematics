@@ -14,7 +14,7 @@
   "ng-add": {
     "save": "devDependencies"
   },
-  "author": "",
+  "author": "Lakunta Tillis",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
@@ -28,5 +28,13 @@
     "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "jasmine": "~3.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktils/subscription-component-schematics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ktils/subscription-component-schematics/issues"
+  },
+  "homepage": "https://github.com/ktils/subscription-component-schematics/blob/main/README.md"
 }
