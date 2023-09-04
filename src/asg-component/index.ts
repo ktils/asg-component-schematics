@@ -13,7 +13,7 @@ import {
     url,
 } from '@angular-devkit/schematics';
 
-export function subscriptionComponent(_options: any): Rule {
+export function asgComponent(_options: any): Rule {
     return (_tree: Tree, _context: SchematicContext) => {
 
         _options.name = basename(_options.name as Path);

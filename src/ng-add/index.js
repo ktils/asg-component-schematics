@@ -23,7 +23,7 @@ function updateWorkspaceCli(host, value) {
 }
 function setAsDefaultSchematics() {
     const cli = {
-        schematicCollections: ['subscription-component-schematics'],
+        schematicCollections: ['asg-component-schematics'],
     };
     return (host) => {
         updateWorkspaceCli(host, cli);

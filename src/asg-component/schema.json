@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "$id": "SubscriptionComponent",
-  "title": "Custom subscription-component options Schema",
+  "$id": "AsgComponent",
+  "title": "Custom asg-component options Schema",
   "type": "object",
   "description": "Creates a new generic component definition in the given or default project.",
   "properties": {
@@ -20,12 +20,12 @@
       },
       "x-prompt": "What name would you like to use for the component?"
     },
-    "subscriptionHandling": {
-      "description": "Include subscription handling code in the component class",
+    "asgHandling": {
+      "description": "Include asg handling code in the component class",
       "type": "boolean",
       "default": true,
-      "alias": "subscription",
-      "x-prompt": "Would you like to not include subscription management in the component?"
+      "alias": "asg",
+      "x-prompt": "Would you like to include asg management in the component?"
     }
   },
   "required": [

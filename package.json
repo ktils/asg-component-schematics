@@ -1,5 +1,5 @@
 {
-  "name": "subscription-component-schematics",
+  "name": "asg-component-schematics",
   "version": "0.1.0",
   "description": "A schematic that contains custom component generate, with optional rxjs Subscription management",
   "scripts": {
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ktils/subscription-component-schematics.git"
+    "url": "git+https://github.com/ktils/asg-component-schematics.git"
   },
   "bugs": {
-    "url": "https://github.com/ktils/subscription-component-schematics/issues"
+    "url": "https://github.com/ktils/asg-component-schematics/issues"
   },
-  "homepage": "https://github.com/ktils/subscription-component-schematics/blob/main/README.md"
+  "homepage": "https://github.com/ktils/asg-component-schematics/blob/main/README.md"
 }

@@ -14,8 +14,8 @@
         "c"
       ],
       "description": "A schematic for generating component, with optional rxjs Subscription management",
-      "factory": "./subscription-component/index#subscriptionComponent",
-      "schema": "./subscription-component/schema.json"
+      "factory": "./asg-component/index#subscriptionComponent",
+      "schema": "./asg-component/schema.json"
     }
   }
 }

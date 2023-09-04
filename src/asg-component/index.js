@@ -9,12 +9,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.subscriptionComponent = void 0;
+exports.asgComponent = void 0;
 const core_1 = require("@angular-devkit/core");
 const schematics_1 = require("@angular-devkit/schematics");
 const parse_name_1 = require("@schematics/angular/utility/parse-name");
 const rxjs_1 = require("rxjs");
-function subscriptionComponent(options) {
+function asgComponent(options) {
     return (tree, context) => __awaiter(this, void 0, void 0, function* () {
         options.path = parse_name_1.parseName("/src/app", options.name).path;
         options.name = core_1.basename(options.name);
@@ -39,5 +39,5 @@ function subscriptionComponent(options) {
         ]);
     });
 }
-exports.subscriptionComponent = subscriptionComponent;
+exports.asgComponent = asgComponent;
 //# sourceMappingURL=index.js.map
